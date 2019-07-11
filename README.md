@@ -38,6 +38,7 @@ project(':RNAdMob').projectDir = new File(rootProject.projectDir, '../node_modul
 You may get build time errors  module 'schedule' not found in haste map
 for this 
 add below to your package.json after that run npm install react@latest
+    
     "@babel/core": "^7.5.0",
     "@babel/runtime": "^7.5.2",
 
